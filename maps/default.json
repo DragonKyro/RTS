@@ -1,0 +1,19 @@
+{
+  "name": "default",
+  "width": 60,
+  "height": 40,
+  "tile_size": 32,
+  "resource_nodes": [
+    { "kind": "metals",  "x": 10, "y": 32, "amount": 1500 },
+    { "kind": "metals",  "x": 12, "y": 33, "amount": 1500 },
+    { "kind": "helium3", "x": 14, "y": 32, "amount": 1000 },
+
+    { "kind": "metals",  "x": 50, "y": 8,  "amount": 1500 },
+    { "kind": "metals",  "x": 48, "y": 7,  "amount": 1500 },
+    { "kind": "helium3", "x": 46, "y": 8,  "amount": 1000 }
+  ],
+  "spawns": [
+    { "player": 0, "x": 8,  "y": 33 },
+    { "player": 1, "x": 52, "y": 7 }
+  ]
+}

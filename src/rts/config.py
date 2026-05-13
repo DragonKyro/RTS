@@ -1,0 +1,20 @@
+"""Global tuning constants. Anything balance-y belongs in `data/balance.py` instead."""
+from __future__ import annotations
+
+WINDOW_WIDTH = 1280
+WINDOW_HEIGHT = 720
+WINDOW_TITLE = "Solar Frontier Wars"
+
+TILE_SIZE = 32
+
+TARGET_FPS = 60
+
+DEFAULT_STARTING_METALS = 500
+DEFAULT_STARTING_HELIUM3 = 0
+DEFAULT_STARTING_SUPPLY = 10
+DEFAULT_SUPPLY_CAP = 10
+
+FOW_REVEAL_RADIUS_TILES = 6
+
+CAMERA_EDGE_SCROLL_MARGIN = 32
+CAMERA_SCROLL_SPEED = 600.0

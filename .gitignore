@@ -1,0 +1,76 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Installer / lock files (keep requirements.txt and pyproject.toml)
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Type checkers / linters
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Game / Arcade runtime
+*.log
+saves/
+screenshots/
+profile_output/
+*.prof
+
+# Asset working files (commit exported sprites/sounds, not source files)
+*.psd
+*.ai
+*.kra
+*.blend
+*.blend1
+*.aup3
+*.flp
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# Claude Code local overrides (project-shared settings.json IS committed)
+.claude/settings.local.json
